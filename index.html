@@ -49,7 +49,7 @@
     const database = firebase.database(app);
 
     // Reference to the 'data' path in the database
-    const dataRef = database.ref('data');
+    const dataRef = database.ref('data/1');
 
     // Fetch data and display on the web page
     dataRef.on('value', (snapshot) => {
